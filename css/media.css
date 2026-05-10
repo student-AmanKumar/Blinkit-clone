@@ -1,0 +1,154 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 14px;
+        padding: 9px;
+
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    .logo{
+        padding:10px;
+
+    }
+    .headerAdd{
+        padding: 10px;
+    }
+
+       .headerAdd p{
+        font-size:12px;
+    }
+       .headerAdd h3{
+        font-size: 15px;
+      
+       }
+       .searchBox button{
+        padding:8px;
+       }
+.headerbtn{
+    position: fixed;
+    margin-right: 0px;
+    background-color: white;
+    width: 100%;
+    height:35px;
+    bottom:0px;
+    justify-content: center;
+    
+}
+.headerbtn button:last-child{
+    font-size: 9px;
+    padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+.orderBanner{
+    padding: 10px;
+    flex-direction: column;
+}
+.categoryItems{
+    flex-basis: 25%;
+}
+.productSection{
+    padding:30px 10px;
+    
+}
+
+.productItems{
+    flex-basis: 49%;
+    margin-top:5px;
+
+}
+.btn-price-outer button{
+    padding: 8px;
+}
+.productContent p{
+    color:#787676;
+}
+footer{
+    padding-top: 0px;
+}
+.footermidrow1{
+    flex-direction: column;
+    padding: 10px;
+}
+.footermidrow1right li{
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.categoryheadingrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoryheadingrow  h3, #see{
+    margin-top: 25px;
+}
+.footermidrow2{
+    flex-direction: column;
+    gap:20px;
+    
+}
+.appicons img{
+    padding-right:15px;
+}
+.appicons  h5{
+        padding-left:10px;
+
+
+}
+.overlay-content{
+    max-width: 80%;
+    padding: 20px;
+}
+.input-group span{
+    font-size: 12px;
+    padding: 5px;
+    background: none;
+
+
+}
+.logo1{
+    margin: 0;
+    padding-right: 34px;
+    border: none;
+}
+.logo1 img {
+   /* display: none; */
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   /* border: 1px solid #ccc; */
+   
+  
+   
+}
+.headerAdd {
+    max-height: 30px;
+}
+.headerAdd h3{
+    font-size: 14px;
+}
+.headerAdd P{
+    font-size: 10px;
+}
+.searchBox{
+    max-height:40px;
+    /* margin-top: 1rem; */
+}
+.searchBox i{
+    font-size:10px
+}
+.bannerSection{
+    margin-top: 3rem;
+}
+
+#bio{
+    padding: 10px;
+    
+}
+#seeall{
+    display: none;
+}
+}
