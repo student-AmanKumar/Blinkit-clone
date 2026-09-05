@@ -422,3 +422,27 @@ footer{
 
     .terms a {color:#2e7d32; text-decoration:none;}
     .terms a:hover {text-decoration:underline;}
+
+    /* protection */
+    /* ================================
+   PROTECTION CSS
+================================ */
+
+html,
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+img {
+    -webkit-user-drag: none;
+    user-drag: none;
+    user-select: none;
+}
+
+input,
+textarea {
+    -webkit-user-select: text;
+    user-select: text;
+}

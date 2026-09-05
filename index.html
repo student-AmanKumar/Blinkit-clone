@@ -995,49 +995,7 @@
     </div>
   </div>
 
-  <script>
-    const overlay = document.getElementById("loginOverlay");
-    const openBtn = document.getElementById("openLogin");
-    const closeBtn = document.getElementById("closeOverlay");
-    const mobileInput = document.getElementById("mobile");
-    const continueBtn = document.getElementById("continueBtn");
 
-    // Open overlay
-    openBtn.addEventListener("click", () => {
-      overlay.style.display = "block";
-    });
-
-    // Close overlay
-    closeBtn.addEventListener("click", () => {
-      overlay.style.display = "none";
-    });
-
-    // Close when clicking outside
-    window.addEventListener("click", (e) => {
-      if(e.target === overlay){
-        overlay.style.display = "none";
-      }
-    });
-
-    // Button active state
-    mobileInput.addEventListener("input", () => {
-      if(mobileInput.value.length === 10){
-        continueBtn.classList.add("active");
-      } else {
-        continueBtn.classList.remove("active");
-      }
-    });
-
-    // Form submit
-    document.getElementById("loginForm").addEventListener("submit", function(e){
-      e.preventDefault();
-      if(mobileInput.value.length === 10){
-        alert("OTP sent to +91 " + mobileInput.value);
-        overlay.style.display = "none"; // close after submit
-      } else {
-        alert("Please enter a valid 10-digit mobile number");
-      }
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
